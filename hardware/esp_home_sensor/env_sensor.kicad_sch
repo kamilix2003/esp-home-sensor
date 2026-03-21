@@ -927,16 +927,34 @@
 		(uuid "68cc60cb-f3d2-4ccc-9ec2-6224e69e64f6")
 	)
 	(junction
-		(at 166.37 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e4adf71-af1b-45f8-a67d-274f5e4e030d")
-	)
-	(junction
 		(at 113.03 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c01bf257-fef6-4d85-bc0d-3593d76cc132")
+	)
+	(junction
+		(at 186.69 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6ff192f-2b75-44a6-8ded-c728b9505f61")
+	)
+	(bus_entry
+		(at 170.18 101.6)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d907b98-ec9a-456f-b710-d258f7b3b8f4")
+	)
+	(bus_entry
+		(at 170.18 101.6)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c074cbd-b4fb-4f46-9647-d435b4b3d8be")
 	)
 	(wire
 		(pts
@@ -950,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 166.37 109.22)
+			(xy 156.21 109.22) (xy 186.69 109.22)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +978,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 166.37 83.82)
+			(xy 143.51 83.82) (xy 186.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 104.14) (xy 157.48 104.14)
+			(xy 156.21 104.14) (xy 167.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -990,23 +1008,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 93.98) (xy 170.18 93.98)
+			(xy 156.21 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f7a949a-a950-415d-8220-043cee0c461b")
-	)
-	(wire
-		(pts
-			(xy 166.37 83.82) (xy 173.99 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31cdad1d-f790-47e6-8402-57f9a2c42e38")
 	)
 	(wire
 		(pts
@@ -1020,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 99.06) (xy 157.48 99.06)
+			(xy 156.21 99.06) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 99.06) (xy 173.99 119.38)
+			(xy 193.04 99.06) (xy 193.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +1118,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 166.37 109.22)
+			(xy 186.69 83.82) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f7bb52-2e72-4a0d-af12-3c9b9badb270")
+	)
+	(wire
+		(pts
+			(xy 186.69 83.82) (xy 186.69 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 173.99 88.9)
+			(xy 193.04 83.82) (xy 193.04 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1178,6 +1196,16 @@
 		)
 		(uuid "ec972f87-5a17-4edc-a4c0-0a24cfcd0aec")
 	)
+	(bus
+		(pts
+			(xy 170.18 101.6) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b48fef-c821-41e5-9f86-d9e75ce6f941")
+	)
 	(wire
 		(pts
 			(xy 138.43 116.84) (xy 138.43 119.38)
@@ -1208,27 +1236,36 @@
 		)
 		(uuid "137971f3-9ee3-46b5-8ee6-f0352dcb4c05")
 	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 157.48 99.06 0)
+	(label "I2C.SCL"
+		(at 165.1 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "010d355f-7d26-4cec-b2ed-94b93b4b0b33")
+		(uuid "220265b2-1bea-4d9e-8c3f-754f5f80300b")
 	)
-	(hierarchical_label "SDA"
+	(label "I2C.SDA"
+		(at 165.1 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b3397df-72ff-481d-b58e-2c99131b77e0")
+	)
+	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
-		(at 157.48 104.14 0)
+		(at 171.45 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "24e96d2f-0d13-4e62-a10c-a63a9c0c4c26")
+		(uuid "37031817-700b-481f-8e3c-f5ce74d892db")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
@@ -1473,7 +1510,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 119.38 0)
+		(at 193.04 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1484,7 +1521,7 @@
 		(dnp no)
 		(uuid "6cde72c5-ed9d-48a9-a21a-26602166d236")
 		(property "Reference" "#PWR024"
-			(at 173.99 125.73 0)
+			(at 193.04 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1495,7 +1532,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 124.46 0)
+			(at 193.04 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1505,7 +1542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 119.38 0)
+			(at 193.04 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,7 +1553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 119.38 0)
+			(at 193.04 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1527,7 +1564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 119.38 0)
+			(at 193.04 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1551,7 +1588,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 173.99 93.98 270)
+		(at 193.04 93.98 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1563,7 +1600,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fa0884f-b033-458a-a4fd-11257825ad73")
 		(property "Reference" "JP1"
-			(at 176.53 92.7099 90)
+			(at 195.58 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1574,7 +1611,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 176.53 95.2499 90)
+			(at 195.58 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1585,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 93.98 0)
+			(at 193.04 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1596,7 +1633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 93.98 0)
+			(at 177.8 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1607,7 +1644,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 161.29 93.98 0)
+			(at 180.34 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

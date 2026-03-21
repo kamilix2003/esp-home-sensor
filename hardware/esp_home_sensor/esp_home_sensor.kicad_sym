@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "BQ25170"
+			(at -0.254 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,19 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Footprint" "esp_home_sensor:QFN-8_EP_2x2_Pitch0.5mm"
+			(at 0.254 9.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -50,8 +39,19 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25170.pdf?ts=1773931902057"
+			(at 0.254 9.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "800-mA Linear Battery Charger for 1-Cell Li-Ion, and LiFePO"
+			(at 0.254 9.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -227,7 +227,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -3.048 8.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -236,8 +236,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "BQ2970"
+			(at 0 6.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -246,18 +246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "esp_home_sensor:QFN-8_1.5x1.5_Pitch0.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -268,7 +257,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq2980.pdf?ts=1774019607283"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage, Current, Temperature Protectors with an Integrated High-Side NFET Driver for Fast/Flash Charging Single-Cell Li-Ion and Li-Polymer Batteries"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -454,8 +454,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "IRLHS6276TRPBF"
+			(at 11.684 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -464,7 +464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esp_home_sensor:QFN-6_2x2_Pitch0.65mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -475,7 +475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/70/1/Infineon_IRLHS6276_DataSheet_v01_01_EN.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,7 +958,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -3.81 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -967,8 +967,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TPS7A21"
+			(at -0.254 3.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -977,7 +977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esp_home_sensor:BGA-4_2x2_0.7x0.7mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -988,7 +988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a21.pdf?ts=1774007575857"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -862,6 +862,44 @@
 		(at 135.89 97.79)
 		(uuid "5b6d3ca9-c822-4f0a-9cc5-122bebf60f64")
 	)
+	(bus_entry
+		(at 175.26 100.33)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e5fb3a-9041-4302-8e89-f24fd2bf0865")
+	)
+	(bus_entry
+		(at 175.26 100.33)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1ff937-d8e3-414b-b541-8d3c43040773")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 172.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bcea29-9bcf-4dd8-a458-e960e52b0af4")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d0d53-4268-4a91-a645-fe29c074c3df")
+	)
 	(wire
 		(pts
 			(xy 132.08 92.71) (xy 134.62 92.71)
@@ -874,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 100.33) (xy 152.4 100.33)
+			(xy 151.13 100.33) (xy 158.75 100.33)
 		)
 		(stroke
 			(width 0)
@@ -934,16 +972,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 135.89 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbfa34c-d2bb-49a3-b09c-c2619db3a7c6")
-	)
-	(wire
-		(pts
 			(xy 153.67 102.87) (xy 151.13 102.87)
 		)
 		(stroke
@@ -951,6 +979,16 @@
 			(type default)
 		)
 		(uuid "bf31ed61-3f37-4796-aae1-b70cef3db9b1")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe9e44f-6ddf-449c-b046-a0fb9901988e")
 	)
 	(wire
 		(pts
@@ -972,6 +1010,16 @@
 		)
 		(uuid "d5eee5f0-88ae-424d-b320-0a6949972314")
 	)
+	(bus
+		(pts
+			(xy 175.26 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa3aa9b-323f-4729-8267-450eaf7b1221")
+	)
 	(wire
 		(pts
 			(xy 119.38 92.71) (xy 121.92 92.71)
@@ -992,27 +1040,56 @@
 		)
 		(uuid "27a31d54-2fa3-4544-9c24-d25e20cf0a00")
 	)
-	(hierarchical_label "SDA"
+	(label "I2C.SDA"
+		(at 158.75 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fd7ca3c-e017-478a-93f9-e85452396c2c")
+	)
+	(label "I2C.SCL"
+		(at 165.1 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5038bfa1-ec6e-48a0-ad81-3a283acdf86a")
+	)
+	(label "I2C.SDA"
+		(at 165.1 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "526bf05f-7602-4a2b-84df-a73409fa44be")
+	)
+	(label "I2C.SCL"
+		(at 128.27 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94293eae-8da3-4ccd-9aaa-91c817cc046f")
+	)
+	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
-		(at 152.4 100.33 0)
+		(at 182.88 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "272ac6b8-faf4-4ab4-a460-4d3d56bea50f")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 134.62 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e82408f-aa9f-4ec3-a819-01fe188e6f47")
+		(uuid "7f45897d-6c9e-4c55-903f-a66c616e1335")
 	)
 	(symbol
 		(lib_id "power:GND")
