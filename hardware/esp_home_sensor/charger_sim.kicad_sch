@@ -501,279 +501,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_NTC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TH"
-				(at -4.445 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_NTC"
-				(at 3.175 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_* RV_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Thermistor_NTC_0_1"
-				(arc
-					(start -3.175 2.413)
-					(mid -3.0506 2.3165)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.6144 2.9736)
-					(end -2.54 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.9736 2.6144)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.9736 1.9794)
-					(end -3.048 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.159)
-					(mid -2.6144 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.159 2.794)
-					(mid -2.434 2.5608)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
-						(xy -1.778 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermistor_NTC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -963,6 +690,467 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:IDC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "I"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Current source, DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "I"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IDC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.254) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.254) (xy -0.254 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 0.762 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IDC_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.778) (xy 0 1.27) (xy 0.254 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "IDC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:VDC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Voltage source, DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.254) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.254) (xy -0.254 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 0.762 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "VDC_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "esp_home_sensor:BQ25170"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -979,8 +1167,8 @@
 					)
 				)
 			)
-			(property "Value" "BQ25170"
-				(at -0.254 6.35 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -989,19 +1177,8 @@
 					)
 				)
 			)
-			(property "Footprint" "esp_home_sensor:QFN-8_EP_2x2_Pitch0.5mm"
-				(at 0.254 9.144 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25170.pdf?ts=1773931902057"
-				(at 0.254 9.398 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1011,8 +1188,19 @@
 					)
 				)
 			)
-			(property "Description" "800-mA Linear Battery Charger for 1-Cell Li-Ion, and LiFePO"
-				(at 0.254 9.398 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1297,9 +1485,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I_{CHG} = K_{ISET}/R_{ISET}\nK_{ISET} = 300\n\nI_{CHG} = 500mA @ R_{ISET} = 600\nI_{CHG} = 440mA @ R_{ISET} = 680\n"
+	(text "I_{CHG} = K_{ISET}/R_{ISET}\nK_{ISET} = 300\n\nI_{CHG} = 500mA @ R_{ISET} = 600\n\n"
 		(exclude_from_sim no)
-		(at 63.5 63.5 0)
+		(at 63.5 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1345,6 +1533,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 139.7) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abaaac6-c64f-4ed8-849a-9f09a190f19d")
+	)
+	(wire
+		(pts
 			(xy 147.32 87.63) (xy 147.32 90.17)
 		)
 		(stroke
@@ -1362,6 +1560,16 @@
 			(type default)
 		)
 		(uuid "2fd04c61-006b-47c6-911b-095563f58484")
+	)
+	(wire
+		(pts
+			(xy 49.53 149.86) (xy 49.53 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306c8e2e-d54e-471e-bc3d-044883e56ea6")
 	)
 	(wire
 		(pts
@@ -1425,6 +1633,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 138.43) (xy 59.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a50f7f9-5660-40c2-87af-4a484e6b50be")
+	)
+	(wire
+		(pts
 			(xy 111.76 102.87) (xy 113.03 102.87)
 		)
 		(stroke
@@ -1455,6 +1673,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 149.86) (xy 59.69 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ad15a5-bfb8-4115-ab7d-e8b90076d68b")
+	)
+	(wire
+		(pts
 			(xy 72.39 151.13) (xy 72.39 153.67)
 		)
 		(stroke
@@ -1462,6 +1690,16 @@
 			(type default)
 		)
 		(uuid "71d86cc6-9461-4506-af96-1cec3053529b")
+	)
+	(wire
+		(pts
+			(xy 59.69 151.13) (xy 72.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e84275-7fad-4a7a-9be9-d303a73f05c9")
 	)
 	(wire
 		(pts
@@ -1495,13 +1733,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 151.13) (xy 72.39 151.13)
+			(xy 49.53 138.43) (xy 59.69 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "880077a7-3792-440d-860a-08ea960ebdc6")
+		(uuid "8b25dcfe-6b6a-490d-b139-b6f124d0f310")
 	)
 	(wire
 		(pts
@@ -2631,6 +2869,109 @@
 		)
 		(uuid "5d08aec7-fb41-477d-8d5f-e4859883d90e")
 	)
+	(rule_area
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 39.37 113.03) (xy 204.47 113.03) (xy 204.47 31.75) (xy 39.37 31.75)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "5b6c47fb-1948-49b9-a927-d89abea806d3")
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 162.56 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01d83a8d-add1-48b2-95ed-d61152d67304")
+		(property "Reference" "#PWR050"
+			(at 49.53 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63d0a65a-c006-4378-a4c1-e7bb86dd02fb")
+		)
+		(instances
+			(project "esp_home_sensor"
+				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 68.58 83.82 0)
@@ -2655,7 +2996,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "R"
 			(at 71.12 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +3007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 70.358 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -2699,17 +3040,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 68.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ce21b02d-8d10-4d34-8444-58ab70c5ba48")
 		)
@@ -2723,6 +3053,12 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2732,7 +3068,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2749,7 +3085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "400k"
 			(at 69.85 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2760,7 +3096,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 70.612 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -2793,17 +3129,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 72.39 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6bf20ce3-34f3-404e-b431-7b259a52b296")
 		)
@@ -2813,6 +3138,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "R6")
 					(unit 1)
 				)
@@ -2895,6 +3226,133 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:IDC")
+		(at 59.69 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30819f98-3c5c-4f85-800b-d2cd838abea1")
+		(property "Reference" "I1"
+			(at 63.5 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "38u"
+			(at 63.5 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 59.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Current source, DC"
+			(at 59.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 59.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 59.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "I"
+			(at 59.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaecef48-b857-4d8d-889b-cf1f7387d691")
+		)
+		(pin "2"
+			(uuid "df4d9fa8-c613-4000-903b-d85e9ad40abc")
+		)
+		(instances
+			(project "esp_home_sensor"
+				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "I1")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "I1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2931,7 +3389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" ""
 			(at 60.6552 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2964,17 +3422,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 59.69 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6aef6ffc-36f0-4373-a342-dfe1646f5fc7")
 		)
@@ -2984,6 +3431,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "C1")
 					(unit 1)
 				)
@@ -3022,7 +3475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" ""
 			(at 107.95 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3066,17 +3519,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 107.95 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8c252795-5dd4-403b-9d9f-f3c9cf95cf69")
 		)
@@ -3086,6 +3528,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "D1")
 					(unit 1)
 				)
@@ -3102,6 +3550,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3ee6c79e-c848-4942-9ea3-41cbed6080cf")
 		(property "Reference" "U1"
 			(at 90.17 68.58 0)
@@ -3113,8 +3562,8 @@
 				)
 			)
 		)
-		(property "Value" "BQ25170"
-			(at 90.17 85.852 0)
+		(property "Value" ""
+			(at 90.17 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3123,7 +3572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "esp_home_sensor:QFN-8_EP_2x2_Pitch0.5mm"
+		(property "Footprint" ""
 			(at 90.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3134,7 +3583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25170.pdf?ts=1773931902057"
+		(property "Datasheet" ""
 			(at 90.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3145,18 +3594,7 @@
 				)
 			)
 		)
-		(property "Description" "800-mA Linear Battery Charger for 1-Cell Li-Ion, and LiFePO"
-			(at 90.17 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. No." "BQ25170JDSGR "
+		(property "Description" ""
 			(at 90.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3198,6 +3636,12 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3233,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 116.84 101.092 90)
 			(hide yes)
 			(show_name no)
@@ -3266,17 +3710,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 116.84 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "204355c5-4d55-40d9-b1fc-306a9c34fa92")
 		)
@@ -3287,6 +3720,95 @@
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 157.48 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fbc35c1-0e0e-44c1-bbca-8bc8ad32fb62")
+		(property "Reference" "R7"
+			(at 82.55 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 82.55 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.312 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f91f0253-203e-4604-82ae-4401d40cc091")
+		)
+		(pin "2"
+			(uuid "08c7f605-7e4d-4704-b25d-b7c7cb91a843")
+		)
+		(instances
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3316,7 +3838,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "R"
 			(at 138.43 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 137.668 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3360,17 +3882,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 135.89 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "78967f28-558a-476a-aee0-11d98740cf9c")
 		)
@@ -3380,6 +3891,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "R2")
 					(unit 1)
 				)
@@ -3462,6 +3979,12 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3496,7 +4019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" ""
 			(at 107.95 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3540,17 +4063,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 107.95 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9a8e1ce2-cc37-439a-9441-3d7369f0b9d7")
 		)
@@ -3560,6 +4072,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "D2")
 					(unit 1)
 				)
@@ -3642,6 +4160,12 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3679,7 +4203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" ""
 			(at 146.3548 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3712,17 +4236,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 147.32 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "adb641ae-0b53-42ef-a4b9-65cda3c08ba5")
 		)
@@ -3732,6 +4245,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "C2")
 					(unit 1)
 				)
@@ -3814,6 +4333,134 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 49.53 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "984aa521-d585-4fa6-84e9-2f83cb2ce59e")
+		(property "Reference" "V1"
+			(at 53.34 143.3801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.6"
+			(at 53.34 145.9201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 49.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 49.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 49.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 49.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 49.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "305ddc8f-e4b8-4aea-85e6-47743ee6727c")
+		)
+		(pin "2"
+			(uuid "2a659a1b-80e6-4ef7-95b8-216c860f2b67")
+		)
+		(instances
+			(project "esp_home_sensor"
+				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "V1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3821,7 +4468,7 @@
 		(at 78.74 140.97 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3881,17 +4528,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 78.74 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7b3a5f0e-b8bc-43a2-992e-f89f06636c40")
 		)
@@ -3905,96 +4541,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 85.09 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0b299ae-24fb-4f69-9f82-cd81b037c44d")
-		(property "Reference" "TH1"
-			(at 87.63 156.5274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NTCSP163JF103FT1H"
-			(at 87.63 159.0674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 85.09 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. No." "NTCSP163JF103FT1H"
-			(at 85.09 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "993496e5-e347-4b29-8374-74b5f8212c6d")
-		)
-		(pin "1"
-			(uuid "53ebb13a-3b89-4453-8ee9-4aba6d2d17f2")
-		)
-		(instances
-			(project "esp_home_sensor"
-				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
-					(reference "TH1")
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -4072,6 +4621,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -4154,6 +4709,12 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4232,6 +4793,12 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4241,7 +4808,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4257,7 +4824,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.9k"
 			(at 78.74 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,7 +4834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 78.74 149.352 90)
 			(hide yes)
 			(show_name no)
@@ -4300,17 +4867,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 78.74 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "aa7a9638-b615-4ab8-b56b-29a2971f5767")
 		)
@@ -4320,6 +4876,12 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
 					(reference "R5")
 					(unit 1)
 				)
@@ -4359,7 +4921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 116.84 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -4392,17 +4954,6 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
-			(at 116.84 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "bb85f4dc-ec89-42ba-a6be-df45cc788bee")
 		)
@@ -4416,6 +4967,18 @@
 					(unit 1)
 				)
 			)
+			(project "charger_sim"
+				(path "/61147200-68f9-45e4-95f5-eaa29163e7ba"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

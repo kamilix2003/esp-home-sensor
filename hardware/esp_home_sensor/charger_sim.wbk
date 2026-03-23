@@ -1,0 +1,61 @@
+{
+  "custom_cursors": 2,
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "DC",
+      "commands": [
+        ".dc R7 2k 30k 100",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "fixedY1scale": {
+        "max": 1.2,
+        "min": 0.0
+      },
+      "legend": {
+        "x": 84,
+        "y": 37
+      },
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "cursor1": {
+            "position": 25977.900552486186,
+            "x_format": "3~Ω",
+            "y_format": "3~V"
+          },
+          "cursor2": {
+            "position": 3000.0,
+            "x_format": "3~Ω",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~Ω",
+            "y_format": "3~V"
+          },
+          "signal": "V(/TS)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(Net-_JP6-B_)",
+          "trace_type": 2049
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 7
+}

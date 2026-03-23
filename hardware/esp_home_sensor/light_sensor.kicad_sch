@@ -1192,7 +1192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 130.81 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1203,7 +1203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1226,6 +1226,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
 			(at 127 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1309,6 +1320,17 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 127 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
+			(at 127 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,6 +1647,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." "VEML3235 "
 			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)

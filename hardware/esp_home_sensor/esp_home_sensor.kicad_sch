@@ -1979,6 +1979,17 @@
 				)
 			)
 		)
+		(property "Mfr. No." ""
+			(at 218.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "MP"
 			(uuid "6607b764-b731-4b60-b7f1-19ca9bc64548")
 		)
@@ -2541,6 +2552,17 @@
 				)
 			)
 		)
+		(property "Mfr. No." ""
+			(at 218.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "MP"
 			(uuid "fef30005-581a-4bde-a059-4ded81ec69bf")
 		)
@@ -2820,6 +2842,17 @@
 				)
 			)
 		)
+		(property "Mfr. No." ""
+			(at 53.34 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61414041-d459-4353-9e05-05813db5c5e4")
 		)
@@ -2889,6 +2922,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
 			(at 218.44 127 0)
 			(hide yes)
 			(show_name no)
@@ -3367,7 +3411,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e21bf01f-a4a7-4c2d-ae41-3af078114327")
-		(property "Sheetname" "LDO"
+		(property "Sheetname" "DC_DC"
 			(at 96.52 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)

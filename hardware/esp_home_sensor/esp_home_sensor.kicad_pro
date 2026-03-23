@@ -607,13 +607,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -637,13 +637,19 @@
           "group_by": false,
           "label": "Opis",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr. No.",
+          "name": "Mfr. No.",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -682,6 +688,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 5,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -694,7 +708,7 @@
         "uuid": "1b1bee14-8d82-405b-b99d-415549a137e6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L1-2,#PWR9-14,#PWR50-59,C5-8,C17-20,JP5,JP7-8,U4-5,U9-10,R15-16",
     "variants": []
   },
   "sheets": [
@@ -712,7 +726,7 @@
     ],
     [
       "e21bf01f-a4a7-4c2d-ae41-3af078114327",
-      "LDO"
+      "DC_DC"
     ],
     [
       "5bb441e3-80f1-4b76-8242-46734c2d8ab7",

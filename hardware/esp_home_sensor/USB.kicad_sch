@@ -1302,7 +1302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1325,6 +1325,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 101.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." " USB4110-GF-A "
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1494,7 +1505,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 124.46 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1504,7 +1515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -1528,6 +1539,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
+			(at 124.46 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +1674,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 124.46 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1662,7 +1684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 88.392 90)
 			(hide yes)
 			(show_name no)
@@ -1686,6 +1708,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
+			(at 124.46 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

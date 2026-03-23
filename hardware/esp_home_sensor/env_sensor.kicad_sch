@@ -921,16 +921,16 @@
 		(uuid "121a08c2-e36b-4eae-b1b1-cf0d74056a1e")
 	)
 	(junction
+		(at 113.03 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202aab7c-815c-4992-80ed-5c74def21041")
+	)
+	(junction
 		(at 138.43 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68cc60cb-f3d2-4ccc-9ec2-6224e69e64f6")
-	)
-	(junction
-		(at 113.03 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c01bf257-fef6-4d85-bc0d-3593d76cc132")
 	)
 	(junction
 		(at 186.69 83.82)
@@ -1068,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 104.14) (xy 102.87 119.38)
+			(xy 101.6 104.14) (xy 101.6 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1098,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 102.87 83.82)
+			(xy 101.6 96.52) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 113.03 83.82)
+			(xy 101.6 83.82) (xy 113.03 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1334,6 +1334,17 @@
 				)
 			)
 		)
+		(property "Mfr. No." ""
+			(at 140.97 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "cd95779a-1051-4140-9a87-133fe5d04c8a")
 		)
@@ -1354,7 +1365,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 119.38 0)
+		(at 101.6 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1365,7 +1376,7 @@
 		(dnp no)
 		(uuid "31263e98-be6a-4155-835e-2fd1433c4dff")
 		(property "Reference" "#PWR027"
-			(at 102.87 125.73 0)
+			(at 101.6 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1376,7 +1387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 124.46 0)
+			(at 101.6 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1386,7 +1397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 119.38 0)
+			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1397,7 +1408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 119.38 0)
+			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1408,7 +1419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 119.38 0)
+			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,6 +1665,17 @@
 				)
 			)
 		)
+		(property "Mfr. No." ""
+			(at 193.04 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "375690be-25f2-4074-a06a-aa46d43e45d7")
 		)
@@ -1752,7 +1774,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 100.33 0)
+		(at 101.6 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1763,7 +1785,7 @@
 		(fields_autoplaced yes)
 		(uuid "811d6784-b1c2-4e8f-b41e-826dcbf79d83")
 		(property "Reference" "C11"
-			(at 106.68 99.0599 0)
+			(at 105.41 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,8 +1795,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 106.68 101.5999 0)
+		(property "Value" "100n"
+			(at 105.41 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1784,8 +1806,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 103.8352 104.14 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 102.5652 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +1818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 100.33 0)
+			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +1829,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 100.33 0)
+			(at 101.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
+			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1855,7 +1888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 116.84 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1866,7 +1899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.9952 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1889,6 +1922,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
 			(at 113.03 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1971,6 +2015,17 @@
 			)
 		)
 		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 140.97 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." "BME680 "
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)

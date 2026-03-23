@@ -307,7 +307,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at -3.048 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -316,8 +316,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "BQ2970"
+				(at 0 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -326,18 +326,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "esp_home_sensor:QFN-8_1.5x1.5_Pitch0.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -348,7 +337,18 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq2980.pdf?ts=1774019607283"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Voltage, Current, Temperature Protectors with an Integrated High-Side NFET Driver for Fast/Flash Charging Single-Cell Li-Ion and Li-Polymer Batteries"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -534,8 +534,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "IRLHS6276TRPBF"
+				(at 11.684 -1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -544,7 +544,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "esp_home_sensor:QFN-6_2x2_Pitch0.65mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -555,7 +555,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.pl/datasheet/3/70/1/Infineon_IRLHS6276_DataSheet_v01_01_EN.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1147,11 +1147,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "V_{RS} = V_{CS} - V_{SS}\n\nV_{RS} = I_R / R_S\n\nI_{CHG} = 440mA => \nR_S > I_R / OCC\nR_S > 12.2 Ohm\n\nI_{DCHG} = 720mA @ R_S = 12 Ohm\n\nI_{CHG} = 540mA @ R_S = 15 Ohm\nI_{DCHG} = 900mA @ R_S = 15 Ohm\n\nP_{R_S} = I^2 / R = .05W"
+		(exclude_from_sim no)
+		(at 160.274 121.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "abd40429-e6ba-4a55-b4f9-aff6ce80b7d4")
+	)
+	(text "For BQ29817\nOCC = -36mV\nOCD = 60mV\n\nOCC condition\n(V_{CS} - V_{SS}) < OCC\n\nOCD condition\n(V_{CS} - V_{SS}) > OCD\n	\n"
+		(exclude_from_sim no)
+		(at 129.54 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "d9928c25-c108-4db4-bcad-76c3a50cbd49")
+	)
 	(junction
 		(at 109.22 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0833c73f-4861-4353-a358-4746730b3d07")
+	)
+	(junction
+		(at 161.29 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8c7d3f-0cdc-41c1-bc26-ae5d8cc49e8d")
 	)
 	(junction
 		(at 151.13 114.3)
@@ -1188,12 +1216,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b03ec45-d48a-42f1-95ba-0cbc94dc78f5")
-	)
-	(junction
-		(at 160.02 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af8607e3-eabe-4a31-80d5-a17c9a064337")
 	)
 	(junction
 		(at 120.65 83.82)
@@ -1259,7 +1281,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 113.03) (xy 160.02 114.3)
+			(xy 161.29 113.03) (xy 161.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1279,7 +1301,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 160.02 105.41)
+			(xy 161.29 104.14) (xy 161.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1339,16 +1361,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 114.3) (xy 177.8 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5987a208-89fa-44ab-a8ef-59d81a828d0c")
-	)
-	(wire
-		(pts
 			(xy 124.46 114.3) (xy 151.13 114.3)
 		)
 		(stroke
@@ -1369,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 114.3) (xy 160.02 114.3)
+			(xy 151.13 114.3) (xy 161.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1426,6 +1438,16 @@
 			(type default)
 		)
 		(uuid "941855d0-07a0-4faf-990d-254fa3937bdb")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9883a4f3-f968-4e94-a015-931450954dc5")
 	)
 	(wire
 		(pts
@@ -1549,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 104.14) (xy 160.02 104.14)
+			(xy 151.13 104.14) (xy 161.29 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1666,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15"
 			(at 123.19 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,7 +1677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 122.428 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -1678,6 +1700,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
 			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1725,7 +1758,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "IRLHS6276TRPBF"
 			(at 162.56 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1735,7 +1768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esp_home_sensor:QFN-6_2x2_Pitch0.65mm"
 			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1746,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/70/1/Infineon_IRLHS6276_DataSheet_v01_01_EN.pdf"
 			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1759,6 +1792,17 @@
 		)
 		(property "Description" ""
 			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." "IRLHS6276TRPBF "
+			(at 162.56 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1818,7 +1862,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15"
 			(at 119.38 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,7 +1872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 112.522 90)
 			(hide yes)
 			(show_name no)
@@ -1852,6 +1896,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
+			(at 119.38 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +2032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 154.94 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,7 +2043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2011,6 +2066,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
 			(at 151.13 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2046,7 +2112,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "685ec8ab-94c7-433a-bf05-d7a6c31b7b9b")
 		(property "Reference" "U2"
 			(at 135.89 92.71 0)
@@ -2058,8 +2123,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 135.89 100.33 0)
+		(property "Value" "BQ2970"
+			(at 135.89 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2068,18 +2133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "esp_home_sensor:QFN-8_1.5x1.5_Pitch0.5mm"
 			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2090,7 +2144,29 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq2980.pdf?ts=1774019607283"
+			(at 135.89 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage, Current, Temperature Protectors with an Integrated High-Side NFET Driver for Fast/Flash Charging Single-Cell Li-Ion and Li-Polymer Batteries"
+			(at 135.89 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." "BQ298217RUGR "
 			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2156,7 +2232,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "IRLHS6276TRPBF"
 			(at 149.86 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esp_home_sensor:QFN-6_2x2_Pitch0.65mm"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2177,7 +2253,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/70/1/Infineon_IRLHS6276_DataSheet_v01_01_EN.pdf"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2190,6 +2266,17 @@
 		)
 		(property "Description" ""
 			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." "IRLHS6276TRPBF "
+			(at 149.86 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,7 +2316,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 109.22 90.17 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2237,10 +2323,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90830ee8-c232-4e71-a66c-9cafa9576b56")
 		(property "Reference" "R8"
-			(at 111.76 88.8999 0)
+			(at 106.68 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2250,8 +2335,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 111.76 91.4399 0)
+		(property "Value" "100"
+			(at 106.68 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2261,8 +2346,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.998 90.17 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.442 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2284,6 +2369,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2333,7 +2429,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 175.26 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 174.498 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -2367,6 +2463,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
 			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2415,7 +2522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 105.41 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,7 +2533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 108.2548 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2459,6 +2566,17 @@
 				)
 			)
 		)
+		(property "Mfr. No." ""
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af1ea815-b7fa-4e70-bcf9-ea1bb1ee3af2")
 		)
@@ -2476,7 +2594,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 109.22 0)
+		(at 161.29 109.22 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2488,7 +2606,7 @@
 		(fields_autoplaced yes)
 		(uuid "f22f762a-a24a-41a6-a925-9e258cd563c3")
 		(property "Reference" "R11"
-			(at 162.56 107.9499 0)
+			(at 163.83 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2498,8 +2616,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 162.56 110.4899 0)
+		(property "Value" "1k"
+			(at 163.83 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2509,8 +2627,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.798 109.22 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.068 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2521,7 +2639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 109.22 0)
+			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2532,7 +2650,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 109.22 0)
+			(at 161.29 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
+			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
