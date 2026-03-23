@@ -3639,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 232.41 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3990,7 +3990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4161,7 +4161,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 71.12 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4924,7 +4924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 71.12 119.38 0)
 			(hide yes)
 			(show_name no)

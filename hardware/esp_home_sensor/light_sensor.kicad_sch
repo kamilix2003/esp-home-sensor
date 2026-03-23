@@ -418,7 +418,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 0 7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -427,8 +427,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "VEML3235"
+				(at 0 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1296,7 +1296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1602,7 +1602,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb6164af-eb23-49e2-a3a2-255b4393f927")
 		(property "Reference" "U8"
 			(at 143.51 92.71 0)
@@ -1614,8 +1613,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 143.51 100.33 0)
+		(property "Value" "VEML3235"
+			(at 143.51 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1624,7 +1623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esp_home_sensor:VEML3235"
 			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)

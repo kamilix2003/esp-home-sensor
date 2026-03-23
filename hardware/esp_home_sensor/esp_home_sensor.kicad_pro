@@ -708,7 +708,7 @@
         "uuid": "1b1bee14-8d82-405b-b99d-415549a137e6"
       }
     ],
-    "used_designators": "L1-2,#PWR9-14,#PWR50-59,C5-8,C17-20,JP5,JP7-8,U4-5,U9-10,R15-16",
+    "used_designators": "JP8",
     "variants": []
   },
   "sheets": [
