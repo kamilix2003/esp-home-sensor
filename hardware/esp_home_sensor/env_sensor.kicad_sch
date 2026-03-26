@@ -1256,6 +1256,16 @@
 		)
 		(uuid "6b3397df-72ff-481d-b58e-2c99131b77e0")
 	)
+	(label "sdo"
+		(at 165.1 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aaf24a44-28cb-4fc7-b5bb-aaa061f43bd2")
+	)
 	(hierarchical_label "I2C{SDA SCL}"
 		(shape bidirectional)
 		(at 171.45 101.6 0)

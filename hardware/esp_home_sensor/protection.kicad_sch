@@ -1609,6 +1609,66 @@
 		)
 		(uuid "fc053a16-ee9b-4457-9f04-6dae964b2cf2")
 	)
+	(label "VDD"
+		(at 120.65 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24ff4108-b9f9-4156-afcb-f59540d0a465")
+	)
+	(label "BAT"
+		(at 120.65 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33bf2994-551f-4cb6-9bea-53c28266c5f3")
+	)
+	(label "CHG"
+		(at 149.86 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "397c29ba-76f0-4e52-91bd-4139f4de5de1")
+	)
+	(label "PACK"
+		(at 149.86 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76daa389-0636-4e08-9b0c-a86ae8d11be7")
+	)
+	(label "DSG"
+		(at 149.86 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8bdbac8-a3a1-45f6-b287-a88fe7213fe5")
+	)
+	(label "CTR"
+		(at 149.86 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8becb29-c852-4b26-b0e9-cb920725617d")
+	)
 	(hierarchical_label "BAT+"
 		(shape passive)
 		(at 177.8 83.82 0)
@@ -1641,6 +1701,76 @@
 			(justify right)
 		)
 		(uuid "3c5d8212-3f7d-467f-ae1d-7ffb1264bc36")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 172.72 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01ee51ac-58c8-408d-8e23-82733c0d42bd")
+		(property "Klasy sieci" "Power"
+			(at 173.4185 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 73.66 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 172.72 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4614aea7-7d4b-4d16-b6cd-06fee3b5b1a6")
+		(property "Klasy sieci" "Power"
+			(at 173.4185 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 73.66 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

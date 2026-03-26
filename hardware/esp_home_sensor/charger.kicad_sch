@@ -1308,12 +1308,6 @@
 		(uuid "a53e9926-2156-4277-a944-6be652e42519")
 	)
 	(junction
-		(at 147.32 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67196a5e-8392-4601-a257-06ec68243eb6")
-	)
-	(junction
 		(at 125.73 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1342,6 +1336,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db081c09-7bf6-4536-b0e7-1a40614ea27e")
+	)
+	(junction
+		(at 147.32 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9cdb60c-ba24-483f-b488-55686ea288c3")
 	)
 	(wire
 		(pts
@@ -1455,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 132.08 73.66)
+			(xy 125.73 73.66) (xy 147.32 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1515,16 +1515,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b938f89-3368-4bd8-b8eb-82f14a3417dd")
-	)
-	(wire
-		(pts
 			(xy 68.58 80.01) (xy 68.58 76.2)
 		)
 		(stroke
@@ -1535,6 +1525,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 73.66) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e386f17-345d-4e1f-9126-aa2ac6e9d1d3")
+	)
+	(wire
+		(pts
 			(xy 100.33 78.74) (xy 107.95 78.74)
 		)
 		(stroke
@@ -1542,6 +1542,16 @@
 			(type default)
 		)
 		(uuid "93c8ff1f-4f25-4cbd-875d-bdca5042d43d")
+	)
+	(wire
+		(pts
+			(xy 147.32 73.66) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9404dab5-9f30-4066-bf24-f260c4e6b0c4")
 	)
 	(wire
 		(pts
@@ -1585,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 147.32 73.66)
+			(xy 167.64 73.66) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1682,16 +1692,6 @@
 			(type default)
 		)
 		(uuid "e373cb7d-8b1c-4913-b712-c7e54d35e1cc")
-	)
-	(wire
-		(pts
-			(xy 147.32 73.66) (xy 147.32 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e401575a-38cf-42fe-a0ea-bd10edf7b1d7")
 	)
 	(wire
 		(pts
@@ -2599,6 +2599,16 @@
 		)
 		(uuid "657a7021-1859-44dd-b7cc-5cbb254e8b9f")
 	)
+	(label "VSET"
+		(at 107.95 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78cd0b24-53c7-4cb8-9933-044aef4a7ffb")
+	)
 	(label "STAT"
 		(at 107.95 81.28 180)
 		(effects
@@ -2608,6 +2618,26 @@
 			(justify right bottom)
 		)
 		(uuid "7af48e97-9255-4082-9f2e-981c3eb869e0")
+	)
+	(label "OUT"
+		(at 107.95 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81a143cb-40d4-4c64-9b4f-40e8d6c2f7bd")
+	)
+	(label "ISET"
+		(at 73.66 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc6452f-de51-43da-98a3-fb834b703ed5")
 	)
 	(label "TS"
 		(at 73.66 78.74 0)
@@ -2632,7 +2662,7 @@
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
-		(at 152.4 73.66 0)
+		(at 167.64 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2640,6 +2670,41 @@
 			(justify left)
 		)
 		(uuid "5d08aec7-fb41-477d-8d5f-e4859883d90e")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 125.73 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f47a8d0a-63cc-4bff-bbfe-c59754d0b656")
+		(property "Klasy sieci" "Power"
+			(at 126.4285 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 26.67 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3577,97 +3642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 137.16 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c62c28b-397a-44f6-8ca8-e63b68e9b6ad")
-		(property "Reference" "JP8"
-			(at 137.16 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 137.16 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 137.16 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 137.16 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. No." ""
-			(at 137.16 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a39f9bd-264a-4822-a23a-65e1552759e3")
-		)
-		(pin "1"
-			(uuid "10f85aa7-fc9f-454f-a232-1a6224b7777f")
-		)
-		(instances
-			(project "esp_home_sensor"
-				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 59.69 90.17 0)
 		(mirror y)
@@ -4422,6 +4396,97 @@
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 157.48 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcea8b7c-0cb8-49bc-9d8f-17174a3c4672")
+		(property "Reference" "JP8"
+			(at 157.48 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 157.48 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
+			(at 157.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 157.48 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." ""
+			(at 157.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ea283b8-15e9-4fa6-b1bd-0a7514518777")
+		)
+		(pin "1"
+			(uuid "c45c329a-ce1b-40fa-901a-faa395c214ae")
+		)
+		(instances
+			(project "esp_home_sensor"
+				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/74ba5f49-7b36-4eb7-9148-c1caa100b65a"
+					(reference "JP8")
 					(unit 1)
 				)
 			)
