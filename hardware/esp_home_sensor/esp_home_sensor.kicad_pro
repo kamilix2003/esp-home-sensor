@@ -542,7 +542,9 @@
         "pcb_color": "rgb(0, 0, 72)",
         "priority": 2,
         "schematic_color": "rgb(0, 0, 72)",
+        "track_width": 0.2,
         "tuning_profile": "",
+        "via_diameter": 0.35,
         "wire_width": 8
       },
       {
@@ -594,6 +596,12 @@
       "/DC_DC/SW": [
         "Power"
       ],
+      "/DC_DC/SW_aux": [
+        "Power"
+      ],
+      "/DC_DC/SW_mcu": [
+        "Power"
+      ],
       "/Env_sensor/I2C.SCL": [
         "I2C"
       ],
@@ -602,6 +610,12 @@
       ],
       "/Env_sensor/I2C{SDA SCL}": [
         "I2C"
+      ],
+      "/Env_sensor/VDD": [
+        "Power"
+      ],
+      "/Light_sensor/VDD": [
+        "Power"
       ],
       "/MCU/DISP_IF.BUSY": [
         "DISP_IF"
@@ -637,6 +651,9 @@
         "Power"
       ],
       "/Protection/BAT-": [
+        "Power"
+      ],
+      "/Protection/VDD": [
         "Power"
       ],
       "3V3_AUX": [
@@ -826,7 +843,7 @@
         "uuid": "1b1bee14-8d82-405b-b99d-415549a137e6"
       }
     ],
-    "used_designators": "JP8",
+    "used_designators": "#PWR33-34,#PWR59,#PWR61-66,TP24-32",
     "variants": []
   },
   "sheets": [

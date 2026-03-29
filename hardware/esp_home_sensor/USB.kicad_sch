@@ -2437,7 +2437,6 @@
 	(symbol
 		(lib_id "Power_Protection:WE-TVS-82400102")
 		(at 140.97 101.6 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2447,7 +2446,7 @@
 		(dnp no)
 		(uuid "def7cd12-2521-473b-ab07-fedcca7aacdf")
 		(property "Reference" "U4"
-			(at 140.97 110.49 0)
+			(at 140.97 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2458,7 +2457,7 @@
 			)
 		)
 		(property "Value" "WE-TVS-82400102"
-			(at 140.97 95.758 0)
+			(at 140.97 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2468,7 +2467,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 96.52 0)
+			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2478,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/82400102.pdf"
-			(at 140.97 95.25 0)
+			(at 140.97 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

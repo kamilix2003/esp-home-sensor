@@ -1091,6 +1091,40 @@
 		)
 		(uuid "7f45897d-6c9e-4c55-903f-a66c616e1335")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 127 102.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42ce5303-b5a1-481b-bafa-6a4cd5250b7c")
+		(property "Klasy sieci" "Power"
+			(at 117.856 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 58.42 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 153.67 115.57 0)

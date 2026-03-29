@@ -2262,7 +2262,7 @@
 		)
 		(uuid "53142923-8633-4eea-9dd4-d3a8bdcd6db7")
 	)
-	(label "SW"
+	(label "SW_mcu"
 		(at 139.7 104.14 180)
 		(effects
 			(font
@@ -2272,7 +2272,7 @@
 		)
 		(uuid "5b1ace59-55a0-4ff6-9a6e-628dcae3a551")
 	)
-	(label "SW"
+	(label "SW_aux"
 		(at 139.7 143.51 180)
 		(effects
 			(font
