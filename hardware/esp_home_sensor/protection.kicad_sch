@@ -1820,7 +1820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0742cda0-be48-4161-80c5-26af93d0fd9f")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 123.19 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,7 +1895,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/b8302090-6617-4f26-9a2f-2058e60ddfbb"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2108,7 +2108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f6c51e6-95b2-4e90-8b5d-5b9643ad34ac")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR024"
 			(at 109.22 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2168,7 +2168,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/b8302090-6617-4f26-9a2f-2058e60ddfbb"
-					(reference "#PWR08")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf7b596-e22e-4c77-b44a-dc5f98eafef2")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 175.26 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +2658,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/b8302090-6617-4f26-9a2f-2058e60ddfbb"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)

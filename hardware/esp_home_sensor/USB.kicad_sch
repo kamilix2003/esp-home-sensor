@@ -1896,7 +1896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d3fab5-5175-4117-987a-62ab12d4fd5f")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 101.6 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,7 +2014,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2032,7 +2032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56da8801-20c5-4055-b179-cf07f4e2a195")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR055"
 			(at 101.6 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2092,7 +2092,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "#PWR041")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2109,7 +2109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5adb12ab-da77-496f-8d3a-a8ffe1e8c2b3")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 130.81 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2182,7 +2182,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2200,7 +2200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "674262d7-090b-4c40-9a45-106dbfad878d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR057"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2260,7 +2260,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "#PWR042")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2277,7 +2277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d655d7d-fac2-47eb-bc4a-763433da3200")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR056"
 			(at 125.73 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2337,7 +2337,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "#PWR058")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2355,7 +2355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c86f34f9-5af0-4798-acf3-ece6f39c694e")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 130.81 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2428,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "def7cd12-2521-473b-ab07-fedcca7aacdf")
-		(property "Reference" "U4"
+		(property "Reference" "U9"
 			(at 140.97 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2520,7 +2520,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "U4")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff5fbb50-2942-489d-90f8-4fa8ef46df36")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR054"
 			(at 93.98 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2598,7 +2598,7 @@
 		(instances
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
-					(reference "#PWR040")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
