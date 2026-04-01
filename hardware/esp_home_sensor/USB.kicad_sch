@@ -5,6 +5,129 @@
 	(uuid "b607b428-0493-4eaa-8a7a-0098da71b5a5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1510,6 +1633,12 @@
 		(uuid "921ed8b8-c604-46e7-ae77-02dac5c96543")
 	)
 	(junction
+		(at 119.38 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c6d386-aa8b-4880-a277-9b93b6192fe6")
+	)
+	(junction
 		(at 119.38 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1593,6 +1722,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 81.28) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab12358-eb2c-4c96-bc0c-02c220e3b8d9")
+	)
+	(wire
+		(pts
 			(xy 116.84 90.17) (xy 127 90.17)
 		)
 		(stroke
@@ -1613,6 +1752,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b44a51d-e791-45f8-a067-511fefe0aaab")
+	)
+	(wire
+		(pts
 			(xy 119.38 105.41) (xy 116.84 105.41)
 		)
 		(stroke
@@ -1630,6 +1779,16 @@
 			(type default)
 		)
 		(uuid "66e5c6cc-bc9e-4784-b8a3-c02d1169e03f")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c8a044-9453-40b1-b37d-baff8af90936")
 	)
 	(wire
 		(pts
@@ -1733,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 85.09) (xy 120.65 85.09)
+			(xy 116.84 85.09) (xy 119.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +2108,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." " USB4110-GF-A "
+		(property "Mfr. No." " USB4110-GF-A"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2015,6 +2174,85 @@
 			(project "esp_home_sensor"
 				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23c0c784-b54c-48be-be00-cb62e60f25a5")
+		(property "Reference" "TP30"
+			(at 125.73 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 125.73 82.5499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 120.65 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc4fbefa-8291-41c7-9ce9-c7da6ebeafbf")
+		)
+		(instances
+			(project "esp_home_sensor"
+				(path "/1b1bee14-8d82-405b-b99d-415549a137e6/58dc3a37-e8d1-418e-8d41-d9195e52f4aa"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -2162,7 +2400,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402FR-075R1L"
 			(at 130.81 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2408,7 +2646,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402FR-075R1L"
 			(at 130.81 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -2489,6 +2727,17 @@
 			)
 		)
 		(property "Description" "Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6"
+			(at 140.97 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. No." "82400102"
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)

@@ -1270,7 +1270,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155R71H104KE14D"
 			(at 127 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1690,7 +1690,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "VEML3235 "
+		(property "Mfr. No." "VEML3235"
 			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)

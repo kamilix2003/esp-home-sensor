@@ -1875,7 +1875,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "AC0402FR-7W15RL"
 			(at 120.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1966,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "IRLHS6276TRPBF "
+		(property "Mfr. No." "IRLHS6276TRPBF"
 			(at 162.56 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -2070,7 +2070,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "AC0402FR-7W15RL"
 			(at 119.38 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -2241,7 +2241,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155R71H104KE14D"
 			(at 151.13 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2331,7 +2331,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "BQ298217RUGR "
+		(property "Mfr. No." "BQ298217RUGR"
 			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2440,7 +2440,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "IRLHS6276TRPBF "
+		(property "Mfr. No." "IRLHS6276TRPBF"
 			(at 149.86 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -2544,7 +2544,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RT0402DRE07100RL"
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2638,7 +2638,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402JR-7W1KL"
 			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2731,7 +2731,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155R71H104KE14D"
 			(at 109.22 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2825,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402JR-7W1KL"
 			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)

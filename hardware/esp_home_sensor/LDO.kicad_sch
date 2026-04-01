@@ -2533,7 +2533,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155R61A106ME11D"
 			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2705,7 +2705,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402JR-07270KL"
 			(at 139.7 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -2982,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155C61E475ME15D"
 			(at 95.25 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3465,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155C61E475ME15D"
 			(at 95.25 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3727,7 +3727,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155R61A106ME11D"
 			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4105,7 +4105,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402JR-07270KL"
 			(at 139.7 115.57 90)
 			(hide yes)
 			(show_name no)

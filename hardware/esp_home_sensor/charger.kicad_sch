@@ -2774,7 +2774,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402FR-07680RL"
 			(at 68.58 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3039,7 +3039,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155R61E105MA12D"
 			(at 59.69 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3141,7 +3141,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "LTST-C281KRKT"
 			(at 107.95 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3231,7 +3231,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "BQ25170JDSGR "
+		(property "Mfr. No." "BQ25170JDSGR"
 			(at 90.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3341,7 +3341,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402FR-0710KL"
 			(at 116.84 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3435,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402FR-0727KL"
 			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3615,7 +3615,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "LTST-C281KRKT"
 			(at 107.95 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3787,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "GRM155R61E105MA12D"
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +4005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTCSP163JF103FT1H"
+		(property "Value" "NTCG103JF103FT1"
 			(at 87.63 159.0674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4049,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." "NTCSP163JF103FT1H"
+		(property "Mfr. No." "NTCG103JF103FT1"
 			(at 85.09 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -4558,7 +4558,7 @@
 				)
 			)
 		)
-		(property "Mfr. No." ""
+		(property "Mfr. No." "RC0402FR-0710KL"
 			(at 116.84 92.71 90)
 			(hide yes)
 			(show_name no)
