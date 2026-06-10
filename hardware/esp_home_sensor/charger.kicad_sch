@@ -2785,6 +2785,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 68.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 68.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce21b02d-8d10-4d34-8444-58ab70c5ba48")
 		)
@@ -2869,6 +2891,28 @@
 			)
 		)
 		(property "Mfr. No." ""
+			(at 72.39 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 72.39 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 72.39 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3050,6 +3094,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 59.69 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 59.69 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6aef6ffc-36f0-4373-a342-dfe1646f5fc7")
 		)
@@ -3152,6 +3218,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 107.95 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 107.95 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8c252795-5dd4-403b-9d9f-f3c9cf95cf69")
 		)
@@ -3232,6 +3320,28 @@
 			)
 		)
 		(property "Mfr. No." "BQ25170JDSGR"
+			(at 90.17 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" "350n"
+			(at 90.17 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" "N/A"
 			(at 90.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3352,6 +3462,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 116.84 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 116.84 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "204355c5-4d55-40d9-b1fc-306a9c34fa92")
 		)
@@ -3436,6 +3568,28 @@
 			)
 		)
 		(property "Mfr. No." "RC0402FR-0727KL"
+			(at 135.89 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 135.89 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3626,6 +3780,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 107.95 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 107.95 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a8e1ce2-cc37-439a-9441-3d7369f0b9d7")
 		)
@@ -3788,6 +3964,28 @@
 			)
 		)
 		(property "Mfr. No." "GRM155R61E105MA12D"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3967,6 +4165,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 78.74 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 78.74 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7b3a5f0e-b8bc-43a2-992e-f89f06636c40")
 		)
@@ -4050,6 +4270,28 @@
 			)
 		)
 		(property "Mfr. No." "NTCG103JF103FT1"
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 85.09 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -4386,6 +4628,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 78.74 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 78.74 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa7a9638-b615-4ab8-b56b-29a2971f5767")
 		)
@@ -4467,6 +4731,28 @@
 			)
 		)
 		(property "Mfr. No." ""
+			(at 157.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 157.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 157.48 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4559,6 +4845,28 @@
 			)
 		)
 		(property "Mfr. No." "RC0402FR-0710KL"
+			(at 116.84 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 116.84 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 116.84 92.71 90)
 			(hide yes)
 			(show_name no)

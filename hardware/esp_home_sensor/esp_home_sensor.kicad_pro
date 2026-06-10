@@ -687,7 +687,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "fab\\esp_home_sensor.csv",
+    "bom_export_filename": "C:\\Users\\kamaj\\code\\esp-home-sensor\\docs\\current_consumtion.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -706,7 +706,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -724,7 +724,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -736,13 +736,13 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -785,6 +785,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supply_current",
+          "name": "Supply_current",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Down_current",
+          "name": "Down_current",
+          "show": true
         }
       ],
       "filter_string": "",

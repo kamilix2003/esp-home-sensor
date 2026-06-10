@@ -1886,6 +1886,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bae74400-b235-403d-a25c-f04c9db22da8")
 		)
@@ -1967,6 +1989,28 @@
 			)
 		)
 		(property "Mfr. No." "IRLHS6276TRPBF"
+			(at 162.56 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" "100n"
+			(at 162.56 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" "N/A"
 			(at 162.56 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -2071,6 +2115,28 @@
 			)
 		)
 		(property "Mfr. No." "AC0402FR-7W15RL"
+			(at 119.38 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 119.38 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 119.38 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -2252,6 +2318,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2d8b5272-039d-4b5b-81b0-cbe922438c37")
 		)
@@ -2332,6 +2420,28 @@
 			)
 		)
 		(property "Mfr. No." "BQ298217RUGR"
+			(at 135.89 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" "100n"
+			(at 135.89 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" "4u"
 			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2451,6 +2561,28 @@
 				)
 			)
 		)
+		(property "Down_current" "100n"
+			(at 149.86 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" "N/A"
+			(at 149.86 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "e9e56665-7060-4acb-ba3c-99180dc9bb36")
 		)
@@ -2555,6 +2687,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53b3b1dd-7837-416d-8e7e-b145dad53290")
 		)
@@ -2639,6 +2793,28 @@
 			)
 		)
 		(property "Mfr. No." "RC0402JR-7W1KL"
+			(at 172.72 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 172.72 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2742,6 +2918,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 109.22 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af1ea815-b7fa-4e70-bcf9-ea1bb1ee3af2")
 		)
@@ -2826,6 +3024,28 @@
 			)
 		)
 		(property "Mfr. No." "RC0402JR-7W1KL"
+			(at 161.29 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 161.29 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)

@@ -2544,6 +2544,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 152.4 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 152.4 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1fb6f31b-0bb2-4342-adf3-618a647d3903")
 		)
@@ -2716,6 +2738,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23814201-dc4a-46c8-a981-a1849d8e0f30")
 		)
@@ -2799,6 +2843,28 @@
 			)
 		)
 		(property "Mfr. No." ""
+			(at 110.49 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 110.49 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 110.49 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -2900,6 +2966,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 143.51 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 143.51 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b323928-c226-47fe-bf2f-84b83fce8d7e")
 		)
@@ -2983,6 +3071,28 @@
 			)
 		)
 		(property "Mfr. No." "GRM155C61E475ME15D"
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 95.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 95.25 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3476,6 +3586,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 95.25 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 95.25 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a6290e89-0a87-419d-81ff-ce0e639b1fc6")
 		)
@@ -3645,6 +3777,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 143.51 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 143.51 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c18f7a7-2d9d-40dc-89ea-ce3a37173ab9")
 		)
@@ -3728,6 +3882,28 @@
 			)
 		)
 		(property "Mfr. No." "GRM155R61A106ME11D"
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3907,6 +4083,28 @@
 				)
 			)
 		)
+		(property "Down_current" "120n"
+			(at 125.73 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" "120n"
+			(at 125.73 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2A"
 			(uuid "ead1dc5b-6d86-4fd7-8714-1dfeffd3cac8")
 		)
@@ -4000,6 +4198,28 @@
 			)
 		)
 		(property "Mfr. No." "TPS628437YKAR "
+			(at 125.73 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" "120n"
+			(at 125.73 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" "120n"
 			(at 125.73 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4107,6 +4327,28 @@
 		)
 		(property "Mfr. No." "RC0402JR-07270KL"
 			(at 139.7 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 139.7 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 139.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

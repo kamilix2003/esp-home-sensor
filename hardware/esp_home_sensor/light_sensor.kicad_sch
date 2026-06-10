@@ -1281,6 +1281,28 @@
 				)
 			)
 		)
+		(property "Down_current" ""
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1203ff7d-ed77-40ab-9d64-a34538e3b0c8")
 		)
@@ -1364,6 +1386,28 @@
 			)
 		)
 		(property "Mfr. No." ""
+			(at 127 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" ""
+			(at 127 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" ""
 			(at 127 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -1668,7 +1712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/80131/veml3235.pdf"
 			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1691,6 +1735,28 @@
 			)
 		)
 		(property "Mfr. No." "VEML3235"
+			(at 143.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Down_current" "1u"
+			(at 143.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply_current" "250u"
 			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)
