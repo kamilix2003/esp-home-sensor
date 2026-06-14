@@ -4,7 +4,7 @@ esphome:
 esp32:
   variant: esp32c6
   flash_size: 4MB
-  cpu_frequency: 80MHz
+  # cpu_frequency: 80MHz
   framework:
     type: esp-idf
 
@@ -18,117 +18,79 @@ api:
 ota:
   - platform: esphome
 
-switch:
-  - platform: gpio
-    pin: GPIO0
-    id: user_led
-    name: "Status LED"
-    internal: true
+# switch:
+#   - platform: gpio
+#     pin: GPIO0
+#     id: user_led
+#     name: "Status LED"
+#     # internal: true
 
-interval:
-  - interval: 5s
-    then:
-      - switch.toggle: user_led
+# interval:
+#   - interval: 5s
+#     then:
+#       - switch.toggle: user_led
 
-binary_sensor:
-  - platform: gpio
-    pin: 
-      number: GPIO03
-      mode:
-        input: true
-        pullup: true
-    id: user_btn
-    interrupt_type: FALLING
-    name: "User Button"
-    filters:
-      - delayed_on: 10ms
-      - delayed_off: 10ms
-    on_press:
-      then:
-        - switch.toggle: user_led
+# binary_sensor:
+#   - platform: gpio
+#     pin: 
+#       number: GPIO03
+#       mode:
+#         input: true
+#         pullup: true
+#     id: user_btn
+#     interrupt_type: FALLING
+#     name: "User Button"
+#     filters:
+#       - delayed_on: 10ms
+#       - delayed_off: 10ms
+#     on_press:
+#       then:
+#         - switch.toggle: user_led
 
-i2c:
-  sda: GPIO14
-  scl: GPIO15
-  scan: true
-  sda_pullup_enabled: true
-  scl_pullup_enabled: true
-  id: bus_a
+# i2c:
+#   sda: GPIO22
+#   scl: GPIO23
+#   # scan: true
+#   sda_pullup_enabled: true
+#   scl_pullup_enabled: true
+#   id: bus_a
 
 sensor:
 
-  - platform: bme680
-    temperature:
-      name: "BME680 Temperature"
-      oversampling: 16x
-    pressure:
-      name: "BME680 Pressure"
-    humidity:
-      id: "humidity"
-      name: "BME680 Humidity"
-    gas_resistance:
-      id: "gas_resistance"
-      name: "BME680 Gas Resistance"
-    i2c_id: bus_a
-    address: 0x77
-    update_interval: 10s
-  - platform: template
-    name: "BME680 Indoor Air Quality"
-    id: iaq
-    icon: "mdi:gauge"
-    # calculation: comp_gas = log(R_gas[ohm]) + 0.04 log(Ohm)/%rh * hum[%rh]
-    lambda: |-
-      return log(id(gas_resistance).get_state()) + 0.04 *  id(humidity).get_state();
-    state_class: "measurement"
+  # - platform: bme680
+  #   temperature:
+  #     name: "BME680 Temperature"
+  #     oversampling: 16x
+  #   pressure:
+  #     name: "BME680 Pressure"
+  #   humidity:
+  #     id: "humidity"
+  #     name: "BME680 Humidity"
+  #   gas_resistance:
+  #     id: "gas_resistance"
+  #     name: "BME680 Gas Resistance"
+  #   i2c_id: bus_a
+  #   address: 0x77
+  #   update_interval: 10s
 
-  - platform: veml3235
-    id: veml3235_sensor
-    name: VEML3235 Light Sensor
-    i2c_id: bus_a
-    address: 0x10
-    update_interval: 10s
-    auto_gain: true
-    auto_gain_threshold_high: 90%
-    auto_gain_threshold_low: 20%
-    digital_gain: 1X
-    gain: 1X
-    integration_time: 50ms
+  # - platform: veml3235
+  #   id: veml3235_sensor
+  #   name: VEML3235 Light Sensor
+  #   i2c_id: bus_a
+  #   address: 0x10
+  #   update_interval: 10s
+  #   auto_gain: true
+  #   auto_gain_threshold_high: 90%
+  #   auto_gain_threshold_low: 20%
+  #   digital_gain: 1X
+  #   gain: 1X
+  #   integration_time: 50ms
 
-  - platform: adc
-    pin: GPIO02
-    name: "ADC Sensor"
-    attenuation: auto
-    update_interval: 10s
-
-text_sensor:
-  - platform: template
-    name: "BME680 IAQ Classification"
-    icon: "mdi:checkbox-marked-circle-outline"
-    lambda: |-
-      if (int(id(iaq).get_state()) <= 50) {
-        return {"Excellent"};
-      }
-      else if (int(id(iaq).get_state()) <= 100) {
-        return {"Good"};
-      }
-      else if (int(id(iaq).get_state()) <= 150) {
-        return {"Lightly polluted"};
-      }
-      else if (int(id(iaq).get_state()) <= 200) {
-        return {"Moderately polluted"};
-      }
-      else if (int(id(iaq).get_state()) <= 250) {
-        return {"Heavily polluted"};
-      }
-      else if (int(id(iaq).get_state()) <= 350) {
-        return {"Severely polluted"};
-      }
-      else if (int(id(iaq).get_state()) <= 500) {
-        return {"Extremely polluted"};
-      }
-      else {
-        return {"unknown"};
-      }
+  # - platform: adc
+  #   pin: GPIO02
+  #   name: "ADC Sensor"
+  #   attenuation: auto
+  #   update_interval: 10s
 
 wifi:
   ssid: !secret main_ssid
