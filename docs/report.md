@@ -9,7 +9,7 @@ Kamil Chaj 418269
 	<figcaption>Complete PCB assembly</figcaption>
 </figure>
 
-Kicad project files and ESP home config can be found in [this repository](https://github.com/kamilix2003/esp-home-sensor).
+KiCAD project files and ESPHome config can be found in [this repository](https://github.com/kamilix2003/esp-home-sensor).
 
 ## Description
 
@@ -38,7 +38,7 @@ Components were selected based on requirements listed above in [Requirements](#r
 - Bosch **BME680** - integrated environmental sensor
 - Vishay **VEML3235** - digital light sensor
 
-Package sizes and types were selected smaller than required as I wanted to try assembly of components with no exposed lead or pads (i.e. LGA and BGA).
+Package sizes and types were selected smaller than required as I wanted to try assembly of components with no exposed leads or pads (i.e., LGA and BGA).
 
 <figure style="text-align:center;">
 	<img src="img/schematic.png" alt="schematic" style="max-width:600px;width:100%;height:auto;display:block;margin:0 auto;" />
@@ -75,32 +75,32 @@ The board was hand soldered using hot air soldering and a hot plate for LGA comp
 	</figure>
 </div>
 
-Unfortunately, I did not manage to assemble the BGA DC/DC converters correctly and they were left unpopulated. For board bring-up purposes, an external 3V3 supply was used.
+Unfortunately, the BGA DC/DC converters were not assembled correctly and were left unpopulated. For board bring-up purposes, an external 3V3 supply was used.
 
 First assembly was done with use of only hot air soldering, which did not yield good results for LGA components, connections on ESP32-C6 were not reliable and JTAG via USB was not working. After reflowing the board on a hot plate, connections were more reliable and JTAG was working.
 
-The battery charger and protection circuits were not tested completely, but there seems to be a major issue with the battery protection circuit, as the board was power was not cut during under voltage and over voltage testing with bench power supply.
+The battery charger and protection circuits were not fully tested. There appears to be a major issue with the battery protection circuit, as power was not cut during under-voltage and over-voltage testing with a bench power supply.
 
 ## ESPHome Configuration
 
-Initial ESPHome, before assembly of the final board, was setup on Seeduino XIAO ESP32S3 development board with BME680 break out board. Which successfully connected to Homeassistant and reported sensor readings.
+Initial ESPHome was set up on a Seeed Studio XIAO ESP32S3 development board with a BME680 breakout board before assembly of the final board. This successfully connected to Home Assistant and reported sensor readings.
 
 <figure style="text-align:center;">
 	<img src="img/esp_home_readings.png" alt="layout" style="max-width:600px;width:100%;height:auto;display:block;margin:0 auto;" />
 	<figcaption>ESPHome sensor readings</figcaption>
 </figure>
 
-After assembly of the final board and successful connection to JTAG, ESPHome was configured for the new hardware and successfully flashed on the board. However, due to issues with I2C bus none of the sensors were working and only battery voltage measurement was working. After extensive debugging, connectivity over JTAG became unreliable and the board was not able to connect with Homeassistant. It is suspected that the issue lies in the powering of the board, as I was using old bench power supply which might overshoot the voltage during power up and damage the board.
+After assembly of the final board and successful JTAG connection, ESPHome was configured for the new hardware and successfully flashed. However, due to I2C bus issues, none of the sensors were working, and only battery voltage measurement functioned. After extensive debugging, JTAG connectivity became unreliable and the board could not connect to Home Assistant. It is suspected that the power supply is the issue, as an older bench power supply may have overshot the voltage during power-up and damaged the board.
 
 ## Results
 
-The results of the project are not satisfactory, as the board is not working as intended and is not able to connect to Homeassistant reliably. There are multiple issues with the board, including the battery protection circuit and I2C bus, which need to be addressed in order to achieve the desired functionality.
+The results of the project are not satisfactory, as the board is not working as intended and cannot reliably connect to Home Assistant. There are multiple issues with the board, including the battery protection circuit and I2C bus issues, which need to be addressed to achieve the desired functionality.
 
-Component selected for the project had significant contribution to the issues, as all components were selected in tiny packages with no exposed leads or pads, which made assembly unreliable and prone to errors.
+Component selection significantly contributed to the issues, as all components were selected in tiny packages with no exposed leads or pads, making assembly unreliable and error-prone.
 
 ## Conclusions
 
-The project was a learning experience in designing of embedded systems, it highlighted the importance of iterative design and testing on the way to the final product. In future revisions of the project, I would consider prototyping subsystems on breadboard or development boards before designing the final PCB or selecting components allowing for easier assembly and debugging and adding more test points and solder bridges for easier debugging.
+The project was a learning experience in embedded systems design. It highlighted the importance of iterative design and testing throughout development. For future revisions, I would consider prototyping subsystems on breadboards or development boards before designing the final PCB, selecting components to allow for easier assembly and debugging, and adding more test points and solder bridges.
 
 ### Improvements for second revision
 
@@ -112,6 +112,6 @@ Major issues:
 
 Minor issues and improvements:
 
-- Adding more test points on the bottom layer and solder bridges for easier debugging
-- Board and copper cutout around BME680 to reduce thermal mass and improve sensor readings
-- additional battery connector, as alternative to 18650 cell cage
+- Add more test points on the bottom layer and solder bridges for easier debugging
+- Add board and copper cutout around the BME680 to reduce thermal mass and improve sensor readings
+- Add an alternative battery connector option to the 18650 cell cage
